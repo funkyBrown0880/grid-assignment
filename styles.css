@@ -154,3 +154,95 @@ h2 {
     }
    
 } 
+
+@media (max-width: 480px) { 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        height: 20em;
+        gap: 2rem;
+        width: 100%;
+    
+    }
+
+    .purple {
+        background-color: rgb(89, 7, 202);
+        grid-row: 1/2;
+        padding: 2rem;
+        border-radius: 5px;
+        
+    }
+
+    .grey {
+        background-color: grey;
+        grid-row: 2/3;
+    }
+
+    .white1 {
+        background-color: white;
+        grid-row: 3/4;
+
+       
+       
+    }
+
+    .white2 {
+        background-color: white;
+        grid-row: 4/5;
+    }
+    
+    .blue {
+        background-color: black;
+        grid-row: 5/6;
+       
+    }
+    
+} 
+
+/* Media querry for mobile */
+
+@media (max-width: 480px) { 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        height: 20em;
+        gap: 2rem;
+        width: 100%;
+    
+    }
+
+    .purple {
+        background-color: rgb(89, 7, 202);
+        grid-row: 1/2;
+        padding: 2rem;
+        border-radius: 5px;
+        
+    }
+
+    .grey {
+        background-color: grey;
+        grid-row: 2/3;
+    }
+
+    .white1 {
+        background-color: white;
+        grid-row: 3/4;
+
+       
+       
+    }
+
+    .white2 {
+        background-color: white;
+        grid-row: 4/5;
+    }
+    
+    .blue {
+        background-color: black;
+        grid-row: 5/6;
+       
+    }
+    
+} 
